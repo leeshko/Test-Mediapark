@@ -1,0 +1,63 @@
+.contactsWrapper {
+    width: 100%;
+    height: 770px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 10px 50px rgba(68, 71, 124, 0.15);
+}
+
+.infoBlock {
+    flex: 1;
+    background-image: url('../../images/blueTrapec.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 75px;
+}
+
+.contactsBlock {
+    flex: 1;
+}
+
+.workerBlock {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.workerBlock>img {
+    height: 130px;
+    width: 130px;
+}
+
+.info {
+    margin: 30px;
+}
+
+.name {
+    color: #6F88B1;
+    font-family: 'Quicksand';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.connection {
+    color: #70737C;
+    font: 18px 'Montserrat', 500;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contactsBlock {
+    padding: 50px 40px;
+}
+
+.contactBlockName {
+    color: #6F88B1;
+    font-family: 'Quicksand';
+    font-size: 50px;
+    font-weight: bold;
+}

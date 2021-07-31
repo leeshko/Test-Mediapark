@@ -1,0 +1,29 @@
+.sortButton {
+    height: 60px;
+    background-color: #A7C0E8;
+    border-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.inButton {
+    display: flex;
+    margin: auto 46px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrowDown {
+    width: 23.56px;
+    height: 13.37px;
+    margin-left: 25px;
+    background-image: url(../../images/arrowDown.svg);
+    background-repeat: no-repeat;
+    border-style: none;
+}
+
+.inButton>p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Quicksand';
+}

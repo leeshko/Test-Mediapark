@@ -1,0 +1,56 @@
+.wrapper {
+    background-color: #E8F1FF;
+    height: 700px;
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    font: Bold 50px 'Quicksand';
+    top: 45px;
+    left: 90px;
+}
+
+.whiteBlock {
+    width: 66%;
+    height: calc(100% - 120px);
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 344px;
+}
+
+.arrowLeft {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../../images/arrowCarouselLeft.svg);
+    cursor: pointer;
+    position: absolute;
+    top: 522px;
+    left: 33px;
+}
+
+.arrowRight {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../../images/arrowCarouselRight.svg);
+    cursor: pointer;
+    position: absolute;
+    top: 522px;
+    right: 33px;
+}
+
+.btn {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.swiper {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
