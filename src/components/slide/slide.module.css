@@ -1,0 +1,41 @@
+.slide1 {
+    display: block;
+    position: absolute;
+    height: 610px;
+}
+
+.slide1>img {
+    width: 348px;
+    border-top-right-radius: 114px;
+    margin: 0;
+}
+
+.pic {
+    height: 349px;
+    width: 348px;
+    border-top-right-radius: 114px;
+}
+
+.textSlider {
+    background-color: rgb(255, 255, 255);
+    height: 360px;
+    width: 348px;
+    color: #30333C;
+    font-family: 'Montserrat';
+    padding-top: 25px;
+    padding-left: 45px;
+    overflow: hidden;
+}
+
+.blockName {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.blockText {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #70737C;
+    line-height: 32px;
+}

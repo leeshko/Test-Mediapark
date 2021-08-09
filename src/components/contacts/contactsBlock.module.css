@@ -1,6 +1,6 @@
 .contactsWrapper {
     width: 100%;
-    height: 770px;
+    height: fit-content;
     display: flex;
     background-color: white;
     box-shadow: 0 10px 50px rgba(68, 71, 124, 0.15);
@@ -60,4 +60,35 @@
     font-family: 'Quicksand';
     font-size: 50px;
     font-weight: bold;
+}
+
+.checkBlock {
+    display: flex;
+    position: relative;
+}
+
+.chkBox {
+    width: 28px;
+    cursor: pointer;
+}
+
+.checkboxLegend {
+    margin-top: 40px;
+    margin-left: 11px;
+    font: 18px 'Montserrat';
+    color: #70737C;
+}
+
+.buttonContainer {
+    margin: 42px auto auto 42px;
+}
+
+.errorMessageChkBox {
+    color: red;
+    position: absolute;
+    bottom: -17px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
 }

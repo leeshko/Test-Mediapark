@@ -1,0 +1,45 @@
+.inputWidth {
+    width: 100%;
+}
+
+.wrapperInput {
+    position: relative;
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px #6F88B1;
+    width: 100%;
+    margin-top: 40px;
+    height: 30px;
+}
+
+input, input::placeholder {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: medium;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #70737C;
+}
+
+.errorMessage {
+    color: red;
+    position: absolute;
+    top: 23px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.inputError {
+    border: none;
+    border-bottom: solid 1px red;
+    width: 100%;
+    margin-top: 40px;
+    height: 30px;
+}

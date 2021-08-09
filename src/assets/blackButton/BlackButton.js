@@ -1,13 +1,23 @@
 import s from './blackButton.module.css';
 
-const SortButton = ({ children }) => {
+const SortButton = ({ children, buttonDisabled = false }) => {
+
     return (
-        <button className={s.sortButton}>
-            <div className={s.inButton}>
-                {children}
-                <div className={s.arrowDown}></div>
-            </div> 
-        </button>
+        <>
+            {buttonDisabled ?
+                <button className={s.sortButtonDisabled} disabled>
+                    <div className={s.inButton}>
+                        {children}
+                        <div className={s.arrowDown}></div>
+                    </div>
+                </button> :
+                <button className={s.sortButton} >
+                    <div className={s.inButton}>
+                        {children}
+                        <div className={s.arrowDown}></div>
+                    </div>
+                </button>}
+        </>
     )
 }
 
